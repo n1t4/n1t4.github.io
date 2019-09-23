@@ -1,0 +1,89 @@
+/* Start Body */
+body {
+    background: rgb(146, 31, 31);
+    color: black(133, 7, 7);
+    font-family: helvetika, arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}  
+/* End Body */
+
+/* Start Debug */
+.bg-white {
+    background-color: white;
+}
+.bg-black {
+    background-color: black;
+}
+/* End Debug */
+
+/*Start Container*/
+.countainer {
+    margin: 10px auto;
+    overflow: auto;
+    width: 90%;   
+
+.countainer-full
+    margin: 10px auto;
+    overflow: auto;
+    width: 100%;   
+}
+/*End countainer*/
+
+/*Start logo*/
+.logo{
+    text-align: center;
+}
+/*End logo*/
+
+/*start menu primer*/
+.menu-primer ul {
+    background-color: rgb(7, 1, 1);
+    border-radius: 4px;
+    box-shadow: 
+        0 3px 5px -1px rgb(150, 17, 17),
+        0 6px 10px 0 rgb(150, 17, 17),
+        0 1px 18px 0 rgb(172, 74, 74);
+}
+.menu-primer li {
+     border-right: 1px solid rgb(110, 8, 8);
+     display: inline-block;
+     margin: 0 -4px
+}
+
+.menu-primer a {
+    color:rgb(116, 36, 36);
+    font-size: 13px; 
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    text-transform:  uppercase;
+}
+
+.menu-primer a:hofer {
+    background-color: rgb(110, 8, 8);
+    color : white;
+    text-decoration : none;
+}
+
+.menu-primer a:active {
+    background-color: rgb(110, 8, 8);
+    color : rgb(107, 8, 8);
+    text-decoration: none;
+}
+/*End menu primer*/
+
+/*start anchor / hyperlink*/
+a:link,
+a:visited {
+    color: rgb(243, 234, 234);
+    text-decoration: none
+}
+a:hover,
+a:active {
+    color:rgb(107, 8, 8);
+    text-decoration:underline;
+}
+
+/*End anchor / hyperlink*/
